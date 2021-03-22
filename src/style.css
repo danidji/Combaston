@@ -11,7 +11,7 @@ img {
 }
 
 body {
-    background-color: #176366;
+    background-color: #4F5055;
     color: #DDD;
     font-size: 18px;
     font-family: 'Karla', monospace;
@@ -34,11 +34,29 @@ a:active, a:hover {
 
 .container {
     /* Opacifier le fond du container de 20% */
-    background-color: rgba(0,0,0,.4);
+    /* background-color: rgba(0,0,0,.4); */
     /* background-color: rgba(255,255,255,.2); */
     font-size: 1.2em;
     margin: 0 auto;
     max-width: 1200px;
     min-height: 100vh;
     padding: 0.5em 1em;
+    position : relative;
+}
+.goku, .vador {
+    position : absolute;
+}
+
+.goku {
+    right:50px;
+    top : 250px;
+    width: 150px;
+    height: auto;
+}
+
+.vador {
+    left:0;
+    top:190px;
+    width:330px;
+    height: auto;
 }
