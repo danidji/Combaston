@@ -7,7 +7,7 @@
 
 import { Monstres } from "./classes_js/monstres.js"
 import { Heros } from "./classes_js/heros.js"
-import { fight } from "./fonctions.js"
+import { Combat } from "./classes_js/combat.js"
 
 
 /*******************
@@ -15,13 +15,14 @@ import { fight } from "./fonctions.js"
  */
 let combattant1 = new Heros("Goku", 600, 30);
 let combattant2 = new Monstres("Dark Vador", 500, 50)
+let combat1 = new Combat();
 
 
 /*********************
  * Main
  */
 
-fight(combattant1, combattant2);
+combat1.fight(combattant1, combattant2);
 
 
 

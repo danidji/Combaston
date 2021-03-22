@@ -1,4 +1,4 @@
-import { returnRandomNb } from "../fonctions.js"
+import { getRandomInt } from "../functions.js"
 
 export class Personnages {
     constructor(nom, pv, attaque) {
@@ -41,8 +41,8 @@ export class Personnages {
         //on génère un nb aléatoire entre 0 et 100 et si celui est au dessus de 70 
         //On multiplie les dégats par un facteur allant de 1,25 - 1,50 - 1,75 - 2 
         let criticalFacteurDammage = [1.25, 1.50, 1.75, 2];
-        let chanceOfGetCritic = returnRandomNb(0, 100);
-        let randomIndexFacteurDammage = returnRandomNb(0, criticalFacteurDammage.length - 1)
+        let chanceOfGetCritic = getRandomInt(0, 100);
+        let randomIndexFacteurDammage = getRandomInt(0, criticalFacteurDammage.length - 1)
 
         if (chanceOfGetCritic > 75) {
             return criticalFacteurDammage[randomIndexFacteurDammage]
