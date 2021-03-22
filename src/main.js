@@ -13,8 +13,8 @@ import { fight } from "./fonctions.js"
 /*******************
  * Variables globales et constantes
  */
-let combattant1 = new Heros("Goku", 500, 30);
-let combattant2 = new Monstres("Dark Vador", 400, 50)
+let combattant1 = new Heros("Goku", 600, 30);
+let combattant2 = new Monstres("Dark Vador", 500, 50)
 
 
 /*********************
