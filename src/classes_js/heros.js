@@ -1,5 +1,5 @@
 import { Personnages } from "./personnages.js";
-import { returnRandomNb } from "../fonctions.js";
+import { getRandomInt } from "../functions.js";
 
 
 export class Heros extends Personnages {
@@ -20,7 +20,7 @@ export class Heros extends Personnages {
             { nom: "Super Genkidama", degats: 100 },
         ];
 
-        newWeapon = returnRandomNb(0, weapons.length - 1);
+        newWeapon = getRandomInt(0, weapons.length - 1);
 
         return weapons[newWeapon]
     }

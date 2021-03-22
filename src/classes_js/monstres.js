@@ -1,5 +1,5 @@
 import { Personnages } from "./personnages.js";
-import { returnRandomNb } from "../fonctions.js";
+import { getRandomInt } from "../functions.js";
 
 
 export class Monstres extends Personnages {
@@ -19,7 +19,7 @@ export class Monstres extends Personnages {
             { nom: "Armure Iron MAN", protection: 75 },
         ];
 
-        newShield = returnRandomNb(0, shields.length - 1);
+        newShield = getRandomInt(0, shields.length - 1);
 
 
         return shields[newShield]
