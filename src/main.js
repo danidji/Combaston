@@ -3,7 +3,10 @@
 //      - le choix du bouclier          OK
 //      - des coups critiques           OK
 //      - affronter un autre ennemi
-//      - faire un affichage
+//      - faire un affichage avec : - ajout du dérouler du combat sur la page 
+//                                  - changement du gif personnages lors d'une attaque (setInterval)
+//                                  - Faire un décompte des points de vie ou ajouter une barre de vie 
+//                                  - Afficher le vainqueur
 
 import { Monstres } from "./classes_js/monstres.js"
 import { Heros } from "./classes_js/heros.js"
