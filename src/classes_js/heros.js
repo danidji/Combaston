@@ -17,6 +17,7 @@ export class Heros extends Personnages {
             { nom: "couteau", degats: 10 },
             { nom: "épée de la mort qui tue", degats: 20 },
             { nom: "Super Kamehameha", degats: 50 },
+            { nom: "Super Genkidama", degats: 100 },
         ];
 
         newWeapon = returnRandomNb(0, weapons.length - 1);
