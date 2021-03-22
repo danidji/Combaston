@@ -11,7 +11,7 @@ img {
 }
 
 body {
-    background-color: #4F5055;
+    background-color: #1A1406;
     color: #DDD;
     font-size: 18px;
     font-family: 'Karla', monospace;
@@ -19,6 +19,9 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Karla', sans-serif;
     text-align: center;
+    /* color: #F99F00; */
+    color: #E34C0B;
+    text-transform: uppercase;
 }
 
 a {
@@ -33,9 +36,8 @@ a:active, a:hover {
 
 
 .container {
-    /* Opacifier le fond du container de 20% */
-    /* background-color: rgba(0,0,0,.4); */
-    /* background-color: rgba(255,255,255,.2); */
+    
+    background-color: #4F5055;
     font-size: 1.2em;
     margin: 0 auto;
     max-width: 1200px;
