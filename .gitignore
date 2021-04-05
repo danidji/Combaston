@@ -6,4 +6,4 @@ package-lock.json
 
 # Exclusion des fichiers .css qui seront charger avec sass
 *.css
-*.css.map
+*.map
