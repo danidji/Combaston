@@ -1,3 +1,11 @@
+// variables 
+
+$first-color: #4F5055
+$second-color: #A2B8C6
+// $third-color: #E34C0B
+$third-color: #F2A640
+$fourth-color: #FEF7E5
+
 *
     transition: all .4s
     word-break: break-all
@@ -7,7 +15,7 @@ img
     width: auto
 
 body
-    background-color: #1A1406
+    background-color: $second-color
     color: #DDD
     font-size: 18px
     font-family: 'Karla', monospace
@@ -15,32 +23,40 @@ body
 h1, h2, h3, h4, h5, h6
     font-family: 'Karla', sans-serif
     text-align: center
-    /* color: #F99F00 */
-    color: #E34C0B
+    color: $third-color
     text-transform: uppercase
 
-a
-    color: #893615
-
-a:visited
-    color: #893615
-
-a:active, a:hover
-    color: #E76B56
+h1
+    font-family: 'Permanent marker'
+    font-size: 3.5rem
 
 .container
-    background-color: #4F5055
+    background-color: $first-color
+    border-radius: 40px
+    box-shadow: 10px 5px 5px $first-color
     font-size: 1.2em
-    margin: 0 auto
+    margin: 50px auto
     max-width: 1200px
-    min-height: 100vh
+    height: 800px
+    // min-height: 100vh
     padding: 0.5em 1em
     position: relative
 
 .fightContainer
     display: flex
+    height: 600px
     .fightCourse
+        height: 90%
+        width: 30%
         margin: auto
+        border: 5px solid $third-color
+        border-radius: 40px
+        background-color: $third-color
+        box-shadow: 3px 3px 10px #9e7034
+        color: $fourth-color
+        opacity: .8
+        text-align: center
+        overflow: hidden
 
 .goku, .vador
     position: absolute
